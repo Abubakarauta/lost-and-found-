@@ -3,18 +3,24 @@
 	padding:0px;
 }
 body{
-		width: 100%;
-		display: -webkit-box;
-
-		-webkit-box-pack:center;
-}
-.grid_8{
-	max-width: 960px;
-	display: -webkit-box;
-	-webkit-box-orient:vertical;
-	-webkit-box-flex:1;
-
 	
+	 
+
+		
+}
+.container_12{
+	background-color: ;
+		display: -webkit-box;
+-webkit-box-pack:center;
+		
+}
+.big_wrapper{
+
+
+width: 620px;
+margin:auto;
+    margin-top: -10px;
+	background-color: ;
 }
 
 		/*
@@ -108,6 +114,7 @@ a:hover,.selected{
 		*************
 		*/
 li{
+	
 
 	display: inline;
 	background-color:#ffffff;
@@ -243,4 +250,81 @@ section{
 	color:white;
 	background-color:#273f46; 
 }
+		/*
+		*************
+		=form
+		*************
+		*/ 
+form{		
+	margin-left: 10px;
+	    padding-bottom: 20px;
+}
+.lost_form{
+	background-color: #e5e5e5e5;
+	border: 2px solid #ffff;
+	border-radius: 15px 15px 15px 15px;
+}
 
+.category,input,.Description{
+	border: 1px solid #17b0cf;
+	width: 172px;
+	border-radius: 5px 5px 5px 5px;
+    padding: 7px 13px;
+
+}
+#submit{
+	width: 71px;    height: 33px;
+}
+label{
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#category{
+	width:198px;
+}
+form h1{
+	padding-top: 8px;
+}
+.Description{
+	width: 279px;
+    height: 104px;
+	}
+input{
+	margin-left: 5px;
+
+}
+
+.Item_Name{
+	    margin-left: 25px;
+}
+.date{
+	margin-left: 2px;
+}
+.to{
+margin-left: 79px;	
+}
+.category{
+	margin-left: 26px;
+	    width: 196px;
+}
+.Location{
+	margin-left: 32px;
+}
+.submit{
+	margin-left: 103px;
+		width: 71px;    height: 33px;
+}
+
+.fisrtname{
+	margin-left:px;
+}
+.lastname{
+	margin-left:px;
+}
+.Email{
+	margin-left: 38px;
+}
+.Phone_no{
+	margin-left: 9px;
+}

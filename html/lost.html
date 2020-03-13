@@ -5,48 +5,67 @@
 	<link rel="stylesheet" type="text/css" href="../960/reset.css">
 	<link rel="stylesheet" type="text/css" href="../960/text.css">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<title>home</title>
+	<title>lost items</title>
 </head>
-<body >
+<body>
 	<div class="container_12">
 		<div class="big_wrapper">
 				<header >
 
 					<div id="logo">
-						<a href="#"> <h1></h1></a>
-
+						<a href="home.html"> <h1></h1></a>
 						<p > Lost And Found </p>
 					</div>
 						
 						<nav >
 							<ul>
-								<li><a href="#"class="selected">home </a> </li>
-								<li><a href="lost.html">lost items </a> </li>
-								<li><a href="found.html">found items</a> </li>
+								<!--<li><a href="home.html">Home</a></li>-->
+								<li><a href="#"class="selected">Search for a lost items </a> </li>
+								<li><a href="found.html">Report a found items</a> </li>
 							</ul>
 						</nav>
 
 				</header >
+				
+				<div class="lost_form">
+					<form action="" method="post">
+						
+						<h1>Searching for a Lost Item? </h1>
+						
+						<!-- name of the lost item -->
+						<label>Item Name</label>
+						<input  class="
+						Item_Name" type="text" name="Item_Name" placeholder="Enter the items name"><br/><br/>
 
-			<div class="main">
-					<section>
-						<div class="grid_8">
-							<h2>About Lost and found </h2>
-							<p >
-							Lost And Found website is an oragnization that helps in returning lost items or property to thier rightful owner,with a specific description of the client items and also it helps in collecting found items that the  organization comes across,lost and found makes it easier to manage reported lost items and customer claims all in one place.
+							<!-- the day  the item was lost-->
+						<label for="date">Date of Lost</label>
+						<input type="date" name="date" class="
+						date" ><br/><br/>
+
+						<!-- the day  the you apply for the lost item-->
+						<label>to</label>
+							<input type="date" name="to" class="
+						to" ><br/><br/>
+
+						<!-- the category of the item-->
+						<label for="category">category</label>
+						<select class="category" name="category" >
+							<option value="">Any</option>
+							<option value="">Animals / Pets</option>
+							<option value="">Bags,Baggage, Luggage</option>
+							<option value="">Books</option>
+						</select><br/><br/>
 							
-							</p><a href="https://en.wikipedia.org/wiki/Lost_and_found" target="_blank" class="button">READ MORE</a>
-						</div>
-					
-					
-					</section>
-					
-			</div>
+						<!-- location of the lost item -->
+						<label>Location</label>
+						<input type="" name="Location" class="
+						Location" placeholder="Enter the Location"><br/><br/>
 
-					<div class="login ">
-						<h3 id="login"><a href="user_login.html">Login </a></h3>
-						<h3 id="Signin"><a href="signin.html">Sign In</a></h3>
-					</div>
+						
+						<input type="submit" name="submit" class="submit">
+
+					</form>
+				</div>	
 
 					<div class="the_footer">
 							<footer>
@@ -84,8 +103,13 @@
 	 
 							</footer>
 					</div>
-		</dsiv>
+		</div>
 
-	</div>
+
+
+
+	</div>	
+
+
 </body>
 </html>
